@@ -1,22 +1,26 @@
-# animated-svg-graphics
-Demonstrates how to animate SVG Graphics in HTML using JavaScript.
+# fading-menu-and-panels
+Demonstrates how to create a menu and panel pane which appear on either click or hover events.
 
 ### The HTML
-Well, not much to this; just an empty div to hold the SVG image.
+The page has two main sections: a navigation section on the left and a main content section on the right.
+
+The navigation section is then divided into the following elements:
+- the hamburger menu, including the hidden content of this menu.
+- the pane holding six sets of icons and the hidden panel with text that comes along with it.
+
+The HTML file is commented to make identifying the different elements more easily.
 
 ### The CSS
-Also, not much to understand here; just some dimensions to keep everything in check.
+The CSS is pretty straightforward for each of the elements and is commented where necessary.
 
 ### The JavaScript
-This is the essence of this exercise.
-We are using the excellen d3.js library for the data visualizations.
+There are three separate functions that take care of the interactivity.
 
-You can find it on: [https://d3js.org/](https://d3js.org/)
-And of course on GitHib: [https://github.com/d3/d3](https://github.com/d3/d3) 
+When the hamburger menu is clicked, the main menu either appears or disappears, depending on its current state.
 
-SVG Graphics are essentially XML files with data. Vector or mathematical elements which we can access and which properties we can adjust and manipulate.
+When the close button inside the main menu is clicked, the main menu disappears.
 
-The circuit graphics have been build carefully in Adobe Illustrator, making sure to use only the necessary paths. And so we can animate the length property of the path to make it look like the graphic is "running".
+When one of the icons is hovered over, the appropiate panel appears.
 
-## [Take a look at the live working version of this demo](https://arteessentia.github.io/animated-svg-graphics/)
-(Refresh the page to see a different circuit being drawn)
+
+## [Take a look at the live working version of this demo](https://arteessentia.github.io/fading-menu-and-panels/)

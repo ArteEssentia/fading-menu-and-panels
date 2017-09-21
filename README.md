@@ -15,13 +15,9 @@ The CSS is pretty straightforward for each of the elements and is commented wher
 
 ### The JavaScript
 There are three separate functions that take care of the interactivity.
-
-When the hamburger menu is clicked, the main menu either appears or disappears, depending on its current state.
-
-When the close button inside the main menu is clicked, the main menu disappears.
-
-When one of the icons is hovered over, the appropiate panel appears.
-
+- When the hamburger menu is clicked, the main menu either appears or disappears, depending on its current state.
+- When the close button inside the main menu is clicked, the main menu disappears.
+- When one of the icons is hovered over, the appropiate panel appears.
 
 ## [Take a look at the live working version of this demo](https://arteessentia.github.io/fading-menu-and-panels/)
 Hover over any of the graphics on the left to see a pane appear.

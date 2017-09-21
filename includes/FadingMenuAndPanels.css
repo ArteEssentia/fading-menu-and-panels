@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* link to some fonts */
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	height: initial;
+  	background: url('../images/bg.jpg') no-repeat 50% 50% fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	margin: 0;
+}
+
+img {
+	border: none;	
+}
+
+/* the left section */
+#navbar {
+	width: 100px; /* navbar is set at 100px */
+	height: 100%;
+	position: fixed;
+	background-color: #336699;
+}
+
+/* the right section */
+#main {
+	padding-left: 100px; /* so, main has a padding of 100px */
+}
+
+/* header styles */
+h1 {
+	font-family: 'Hammersmith One', sans-serif;
+	color: #336699;
+	font-size: 5.83em; /* 70/12 */
+	text-align: center;
+	margin: 0;
+}
+h2 {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.5em; /* 18/12 */
+}
+
+/* position the hamburger */
+#menu {
+	padding: 2em 30% 0 30%;
+}
+
+/* the menu container */
+#overlay {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 300px;
+	height: 14em;
+	background: #336699;
+	padding: 5px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+/* the individual menu items */
+#overlay li {
+	list-style: none;
+	position: relative;
+	width: 250px;
+	height: 2em;
+	text-align: left;
+}
+#overlay li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.hidden {
+	display: none;
+}
+
+/* the close button */
+#close {
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left; /* so it does not disturb the menu */
+	padding: 2px 0 0 2px;
+}
+
+/* the panel pane */
+#navPane {
+	list-style-type: none;
+	padding-left: 1.5em; /* 18/12 */
+	margin-top: 3em; /* 36/12 */
+}
+
+/* the individual elements of the pane */
+#navPane li {
+	position: relative;
+	border: 2px solid #eee;
+	border-radius: 50%;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin: 10px 0;
+	-webkit-transition: border 0.2s ease-in;
+	-moz-transition: border 0.2s ease-in;
+	-o-transition: border 0.2s ease-in;
+	transition: border 0.2s ease-in;
+}
+
+/* the current element, which shows a red border */
+#navPane li:hover {
+	border: 2px solid #fe000a;
+	-webkit-transition: border 0.2s ease-in;
+	-moz-transition: border 0.2s ease-in;
+	-o-transition: border 0.2s ease-in;
+	transition: border 0.2s ease-in;
+}
+
+/* the current panel */
+.activebox {
+	position: absolute;
+	width: 300px;
+	top: 0;
+	left: 70px;
+	padding: 10px;
+	background-color: #336699;
+	color: #fff;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}

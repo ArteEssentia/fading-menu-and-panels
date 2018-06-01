@@ -19,6 +19,6 @@ There are three separate functions that take care of the interactivity.
 - When the close button inside the main menu is clicked, the main menu disappears.
 - When one of the icons is hovered over, the appropiate panel appears.
 
-## [Take a look at the live working version of this demo](https://arteessentia.github.io/fading-menu-and-panels/)
+## [Take a look at the live working version of this demo](https://VincentKlijn.github.io/fading-menu-and-panels/)
 Hover over any of the graphics on the left to see a pane appear.
 Click the hamburger menu to open a main menu; then either click the hamburger again to close it, or click the close button inside the menu.
